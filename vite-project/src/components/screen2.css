@@ -1,0 +1,55 @@
+/* screen2.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: blue;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item p {
+    margin: 10px 0;
+  }
+  
+  .menu-item button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Make the button round */
+  }
+  
+  .menu-item button:hover {
+    background-color: darkblue;
+  }
+  

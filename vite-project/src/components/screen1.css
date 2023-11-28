@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: magenta;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .navbar h1 {
+    color: white;
+    margin: 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    margin-top: 0;
+  }
+  
+  .content button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Make the button rounded */
+  }
+  
+  .content button:hover {
+    background-color: darkmagenta;
+  }
+  
